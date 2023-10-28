@@ -398,10 +398,10 @@
   resolved "https://ldapps.cz/@iconify%2ftypes/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
 
-"@inlaserworld/reservation-widget@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.inlaserworld.cz/@inlaserworld/reservation-widget/-/reservation-widget-0.0.3.tgz#9a7cfde886cef8865769851aac94f3c02ace136b"
-  integrity sha512-td9nyKX+AMCVW8+K4ZzG9zqQp8KLE+ERCWUWH4Vkpbizi9z7eKzy9VxbTHoF09InppofEfIbM/bC5oBMSbqitQ==
+"@inlaserworld/reservation-widget@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.inlaserworld.cz/@inlaserworld/reservation-widget/-/reservation-widget-0.0.4.tgz#6c5ebd8942d8a6110d2287089018c6e80e6cb4e6"
+  integrity sha512-kBQvMvqfPiqfrVT8rxEBFFRPyHe5nJ7AekCZjMlXoiGev5vbsikjyi0eT3fT0KRPukDuh1XtkDJSHk3+dMbm2w==
 
 "@inlaserworld/types-tenant@^0.0.2":
   version "0.0.2"

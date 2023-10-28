@@ -34,13 +34,14 @@ return <ReservationStateProvider>
 
 2) Inside App.tsx important is useApp hook that takes following props
 
-| Name |   Type    | Description |
-|:---------|:---------:|---------:|
-| reservationId |   number  | The portal ID obtained in reservation setting on portal.inlaserworld.com |
-| tenantId |  number   | The tenant ID obtained in reservation setting on portal.inlaserworld.com |
-| fallbackLng |  string   | Reservation is using i18n package to provide translation this is fallback language |
-| baseDomId |  string   | if this is loaded as shadow dom this ID need to be provided |
-| apiUrl |  string   | url to api basically for development only |
+| Name          |   Type    |                                                                        Description |
+|:--------------|:---------:|-----------------------------------------------------------------------------------:|
+| reservationId |   number  |           The portal ID obtained in reservation setting on portal.inlaserworld.com |
+| tenantId      |  number   |           The tenant ID obtained in reservation setting on portal.inlaserworld.com |
+| fallbackLng   |  string   | Reservation is using i18n package to provide translation this is fallback language |
+| baseDomId     |  string   |                        if this is loaded as shadow dom this ID need to be provided |
+| apiUrl        |  string   |                                          url to api basically for development only |
+| tenantUuid    |  string   |                                             unique uuid obtained in portal setting |
 ```ts
 export interface AppProps {
     reservationId?: number;
@@ -48,6 +49,7 @@ export interface AppProps {
     fallbackLng?: string;
     baseDomId?: string;
     apiUrl?: string | null;
+    tenantUuid: string;
 }
 ```
 

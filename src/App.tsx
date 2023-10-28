@@ -1,4 +1,3 @@
-import React from 'react';
 import Groups from "./components/Groups";
 import SelectLanguage from './components/SelectLanguage';
 import SelectDate from "./components/SelectDate";
@@ -84,6 +83,6 @@ function App(props: AppProps) {
 
 export default function (){
     return <ReservationStateProvider>
-        <App reservationId={1} fallbackLng='en' tenantId={8} />
+        <App tenantUuid='1494deec-f52e-4bc0-9184-abc8c1426277' reservationId={1} fallbackLng='en' tenantId={8} />
     </ReservationStateProvider>
 }
