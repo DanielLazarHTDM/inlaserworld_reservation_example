@@ -398,15 +398,15 @@
   resolved "https://ldapps.cz/@iconify%2ftypes/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
 
-"@inlaserworld/reservation-widget@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.inlaserworld.cz/@inlaserworld/reservation-widget/-/reservation-widget-0.0.4.tgz#6c5ebd8942d8a6110d2287089018c6e80e6cb4e6"
-  integrity sha512-kBQvMvqfPiqfrVT8rxEBFFRPyHe5nJ7AekCZjMlXoiGev5vbsikjyi0eT3fT0KRPukDuh1XtkDJSHk3+dMbm2w==
+"@inlaserworld/reservation-widget@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.inlaserworld.cz/@inlaserworld/reservation-widget/-/reservation-widget-0.0.6.tgz#4e55af4ac84e11559ec1ad4ddaf12b37cd819c27"
+  integrity sha512-13xm0VAiLvY75dBbzQeQDZjM4LHM2xGLlBbUutlLTFdiFamiJAtGrM4NNgdl+Y8lURaakaiaDW76LHbur4I5Zg==
 
-"@inlaserworld/types-tenant@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.inlaserworld.cz/@inlaserworld/types-tenant/-/types-tenant-0.0.2.tgz#bc3759ef9c565416ac4b1a5473d2a08e3b933bcf"
-  integrity sha512-P0CpnrE5zPPFZqDeppOnxaptZHpp0N540zJyxKPAjYe9yNXKvx15f4ZxubDkpdr7mCUdtqLt6qF8gdTQXM2g7g==
+"@inlaserworld/types-tenant@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.inlaserworld.cz/@inlaserworld/types-tenant/-/types-tenant-0.0.3.tgz#234ce9abc33ad9140106a9f1e4a824e1c5eb9213"
+  integrity sha512-usBSmuZvA4/28A1YmwDNunIjFnOlHI7KCGeG09/er0WZlT4S5vkJ1fgwr8ZtOKRQQscHx1I6GaaRpRFxorHzLw==
 
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"

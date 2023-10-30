@@ -1,7 +1,6 @@
 import {useTranslation} from "react-i18next";
 import moment from "moment";
 import { Icon } from '@iconify/react';
-import React, {MutableRefObject, useRef } from "react";
 import {
   useCurrency,
   useItemsLength,

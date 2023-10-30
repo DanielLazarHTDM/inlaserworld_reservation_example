@@ -1,4 +1,5 @@
 import moment from "moment";
+// @ts-ignore
 import DatePicker from "react-datepicker";
 import { useTranslation } from "react-i18next";
 import { useSelectDate } from "@inlaserworld/reservation-widget";

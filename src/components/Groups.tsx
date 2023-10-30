@@ -1,6 +1,5 @@
 import { useContextSelector } from "use-context-selector";
 import { useTranslation } from "react-i18next";
-import React from "react";
 import {groupTranslationName, useGroupCount, useGroupLength, useMainVisitorCount, ReservationContext} from "@inlaserworld/reservation-widget";
 
 function GroupCount({index}: {index: number}){
@@ -39,7 +38,7 @@ function SelectVisitorNumber(){
 export default function Groups() {
   const { t } = useTranslation();
   const length = useGroupLength();
-  // Render when setting change, id is not used really
+  // @ts-ignore Render when setting change, id is not used really
   const id = useContextSelector(ReservationContext,
     v => v.state.setting.id);
 
