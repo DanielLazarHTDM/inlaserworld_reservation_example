@@ -16,6 +16,7 @@ import logo from '../inlogo.svg'
 import "react-datepicker/dist/react-datepicker.css"
 import {AppProps, ReservationStateProvider, useApp} from '@inlaserworld/reservation-widget';
 import TermsAndConditions from "./components/TermsAndConditions";
+import i18n from "i18next";
 
 function CredentialsForm() {
     const { t } = useTranslation();
@@ -40,7 +41,18 @@ function CredentialsForm() {
 
 function App(props: AppProps) {
 
-    const { loading, requiredAttributeMissing } = useApp(props);
+    const baseApiLoaded = () => {
+        if(props.fallbackLng) {
+            i18n.options.fallbackLng = props.fallbackLng
+        }
+        i18n.reloadResources();
+    }
+
+    const { loading, requiredAttributeMissing } = useApp({
+        ...props,
+        baseApiLoaded,
+        i18n
+    });
 
     if(loading) {
         return <div className='main-loading'>

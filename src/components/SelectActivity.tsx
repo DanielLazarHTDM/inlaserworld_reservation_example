@@ -1,10 +1,11 @@
 import {useTranslation} from "react-i18next";
 import {useActivitiesLength, useSelectActivity} from "@inlaserworld/reservation-widget";
+import i18n from "i18next";
 
 
 function Activity({index}: {index: number}) {
   const { t } = useTranslation();
-  const { iconUrl, switchToThis, selected, translationNameTag } = useSelectActivity(index);
+  const { iconUrl, switchToThis, selected, translationNameTag } = useSelectActivity(index, i18n);
 
   return <div className={`flex md:min-w-[200px] w-[45%] md:w-[100%] md:max-w-[200px] flex-col gap-2.5 items-center cursor-pointer`}
               onClick={switchToThis}>

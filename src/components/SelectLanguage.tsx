@@ -1,10 +1,12 @@
 import {useAvailableLanguagesLength, useSelectLanguage} from "@inlaserworld/reservation-widget";
+import {useTranslation} from "react-i18next";
 
 function LanguageButton({index}: {index: number}) {
-  const { code, switchToThis, selected } = useSelectLanguage(index);
+  const { i18n } = useTranslation();
+  const { code, selected } = useSelectLanguage(index, i18n.language);
   return <button //className={`select-language-button ${selected ? 'selected' : ''}`}
                   className={`xl:text-2xl text-md bg-transparent border-none cursor-pointer text-white ${selected ? 'font-bold text-inblue' : ''}`}
-                  onClick={switchToThis} >{code}</button>
+                  onClick={() => i18n.changeLanguage(code)} >{code}</button>
 }
 
 export default function SelectLanguage() {
