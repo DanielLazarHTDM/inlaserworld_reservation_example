@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@iconify/react": "^4.1.1",
-    "@inlaserworld/reservation-widget": "^0.0.7",
+    "@inlaserworld/reservation-widget": "^0.0.17",
     "@inlaserworld/types-tenant": "^0.0.3",
     "@radix-ui/react-toast": "^1.1.5",
     "axios": "^1.5.1",

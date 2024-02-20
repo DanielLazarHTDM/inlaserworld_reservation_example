@@ -19,7 +19,8 @@ export default function SaveButton() {
   const { save, loading, error } = useSaveButton({onSaved, actualLanguage: locale});
 
   return <>
-    <button className='p-5 font-bold bg-gradient-to-br from-[#0061C8] to-inblue hover:from-inblue hover:to-inblue text-white font-semibold py-2 px-4 rounded shadow-md' onClick={save}>
+    <button className='p-5 font-bold bg-gradient-to-br from-[#0061C8] to-inblue hover:from-inblue hover:to-inblue text-white font-semibold py-2 px-4 rounded shadow-md'
+            onClick={save}>
       {loading ? <ClipLoader/> : t('submit')}
     </button>
     {error && <div className='text-red-500 mt-[4px] ml-[10px]'>{t(error)}</div>}
